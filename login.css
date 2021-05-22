@@ -1,0 +1,94 @@
+html, body 
+{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    background-image: url('img/soa.jfif');
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: 200px;
+
+    
+}
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+form 
+{
+    margin-top: 145px;
+    border: 5px solid #f1f1f1;
+    border-radius: 20px;
+    height: 400px;
+    background-color: white;
+}
+    
+input[type=email]
+{
+    width: 100%;
+    padding: 16px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+    
+button 
+{
+    background-color: #4caae9;
+    color: white;
+    padding: 14px 0;
+    margin: 0px 0;
+    border-radius: 20px;
+    border: 1px black;
+    cursor: grabbing;
+    width: 100%;
+    font-size: 16px;
+}
+    
+h1 
+{
+    text-align:center;
+    font-size:25;
+    margin-top: 30px;
+}
+    
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+    
+.formcontainer {
+    text-align: left;
+    margin: 24px 50px 12px;
+    justify-content: center;
+}
+    
+.container {
+    padding: 16px 0;
+    text-align:left;
+}
+    
+span.psw {
+    float: right;
+    padding-top: 0;
+    padding-right: 15px;
+}
+/* Change styles for span on extra small screens */
+@media screen and (max-width: 300px) 
+{
+    span.psw 
+    {
+    display: block;
+    float: none;
+    }
+}

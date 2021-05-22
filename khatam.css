@@ -1,0 +1,24 @@
+*{
+    background-image: url('img/rage_1.jfif');
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: 4em;
+}
+.container_box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.video
+{
+    width: 100%;
+}
+.video_component
+{
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+}
